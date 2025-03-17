@@ -68,7 +68,7 @@ class HomeScreen extends StatelessWidget {
             padding: EdgeInsets.all(16),
             child: ElevatedButton(
               style: ElevatedButton.styleFrom(
-                primary: Colors.deepOrange,
+                backgroundColor: Colors.deepOrange,
               ),
               child: Text('Start New Case'),
               onPressed: () {
